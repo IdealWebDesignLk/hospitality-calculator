@@ -1,0 +1,118 @@
+.property-calculator {
+    border: 1px solid #ccc;
+    padding: 15px;
+    max-width: 650px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 6px 0px #afafaf;
+    padding: 50px;
+    border-radius: 10px;
+    background: #f3f3f3;
+}
+
+.property-calculator h2 {
+    margin-top: 0;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.input-group label {
+    font-size: 17px;
+    display: block;
+    margin-bottom: 13px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 5px;
+    height: 40px !important;
+    border-radius: 6px;
+    padding: 12px !important;
+    font-size: 16px;
+}
+
+.error { 
+    color: red; 
+    font-size: 12px; 
+}
+
+.result {
+    font-weight: 300;
+    margin-top: 0px;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 13px !important;
+    background-color: #000000 !important;
+    border-radius: 6px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+button { 
+    width: 100%;
+    border-radius: 5px;
+    padding: 11px;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px 20px; 
+    background-color: #0073aa; 
+    color: #fff; 
+    border: none; 
+    cursor: pointer;           
+}
+
+button:hover { 
+    background-color: #006799; 
+}
+
+.input-group {
+    width: 100%;
+}
+
+.group-wrap {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 30px 0;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.input-group-wrap {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media(max-width:690px){
+    .input-group-wrap {
+        display: flex;
+        gap: 20px;
+        align-items: stretch;
+        flex-direction: column;
+    }
+    .property-calculator h2 {
+        font-size: 21px;
+        line-height: 1.4;
+    }
+    .property-calculator {
+        padding: 20px;
+    }
+    .group-wrap {
+        display: flex;
+        gap: 20px;
+        align-items: stretch;
+        padding: 20px 0px;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .result {
+        font-size: 14px;
+    }
+}
